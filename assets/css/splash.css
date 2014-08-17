@@ -21,49 +21,33 @@
 
 }
 body{
-	background-color: #e0e0e0;
 	font-family: 'roboto';
-	text-shadow:none;
 }
-h1,h2,h3,h4,h5,h6{
-	font-family: 'roboto';
-	text-shadow:none;
+p{
+	font-size: 5em;
+	color:#fff;
 }
-.card{
-	background-color: #fff;
-	border-radius: 2px;
-	box-shadow: 4px 4px 6px #ccc;
+.container{
+	overflow: hidden;
+	margin: 0px;
+	background-color:#27a9e1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
 }
-.user_pic{
-	background-color: #000;
-	border-radius: 16px;
+.logo{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -150px;
+	line-height: 150px;
 }
-.header{
-	background-color: #f68c1e;
-	box-shadow: 4px 4px 6px #ccc;
-}
-.searchForm{
-	background-color: #f68c1e;
-}
-.text-theme-header{
-	background-color: #f68c1e;
-	width: 230px;
-}
-.text-theme-light{
-	color: #fff;
-	border-bottom-color: #FFF;
-}
-.text-theme-dark{
-	color: #000;
-	border-bottom-color: #000;
-}
-.add{
-	background-color:#f68c1e;
-	box-shadow: 4px 4px 6px #ccc;
-	border-radius: 50%;
-}
-.noresults{
-	margin-top: 50px;
-	font-size: 50px;
-	color:#666;
+.logo img{
+	height: 300px;
 }

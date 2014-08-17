@@ -1,10 +1,27 @@
 <html>
 <head>
-	<script type="text/javascript">
-		window.location.href = "main.html";
+	<script typ-e="text/javascript" src='assets/js/jquery.js'></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/splash.css">
+	<script>
+		$(function(){
+			$(document).ready(function(){
+				setTimeout(function(){
+					$("#logo").fadeOut();
+					$("#text").fadeIn();
+					setTimeout(function(){
+						$('#cont').fadeOut();
+					},1000);
+				},1000);
+				setTimeout(function(){window.location.href = "main.html"},2500);
+			});
+		});
 	</script>
 </head>
-<body>
-
+<body style=''>
+	<div id='cont' class="container">
+		<div id='logo' class="logo"><img src="assets/images/splash/mainLogo.png" alt=""></div>
+		<div id='text' class="logo" style='display:none'><p>BooKey</p></div>
+	</div>
 </body>
 </html>
