@@ -1,0 +1,127 @@
+input[type=text]{
+	border:none;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-radius: 2px;
+	height: 24px;
+	font-size: 20px;
+}
+.content{
+	height: 400px;
+	min-width: 304px;
+	max-width: 604px;
+	margin: 0 auto;
+	margin-top: 60px;
+	padding:8px;
+}
+.searchForm{
+	display: none;
+	position: fixed;
+	height: 50px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	line-height: 50px;
+	margin-left: 39px;
+	margin-right: 39px;
+	margin-top: 10px;
+	text-align: right;
+}
+.header{
+	position: fixed;
+	height: 50px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	line-height: 50px;
+}
+.card{
+	height: 370px;
+	margin: 0 auto;
+	margin-bottom: 8px;
+	margin-left: 8px;
+}
+.card_header{
+	height: 36px;
+	padding-top:4px;
+	line-height: 17px;
+	font-size: 12px;
+}
+.user_pic{
+	width: 32px;
+	height: 32px;
+	margin-left: 4px;
+	margin-right: 4px;
+	float: left;
+	background: no-repeat center center;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.book_cover{
+	margin-top: 4px;
+	height: 200px;
+	background: no-repeat center center;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.options{
+	height: 40px;
+	padding:5px;
+}
+.description{
+	padding:5px;
+	height: 70px;
+	text-align: justify;
+}
+.icon{
+	width: 24px;
+	height: 24px;
+	margin-bottom: -5px;
+}
+.appName{
+	color: #fff;
+	font-size: 20px;
+}
+.infos{
+	position: absolute;
+	float: left;
+	margin-left: 15px;
+	margin-top: -2px;
+}
+.search{
+	height: 50px;
+	padding-top: 13px;
+	float: right;
+	margin-right: 15px;
+}
+.opitionBt{
+	padding: 8px;
+}
+.add{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 99999;
+	width: 42px;
+	height: 34px;
+	margin:10px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	padding-top: 8px;
+}
+.search-results{
+	display: none;
+	z-index: 999999;
+	position: fixed;
+	top:50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #fff;
+	text-align: center;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<symbol  id="ic_x5F_menu_x0D__2" viewBox="0 -24 24 24">
+	<polygon fill="none" points="24,-24 0,-24 0,0 24,0 	"/>
+	<path fill="#F2F2F2" d="M3-18h18v2H3V-18z M3-13h18v2H3V-13z M3-6v-2h18v2H3z"/>
+</symbol>
+<use xlink:href="#ic_x5F_menu_x0D__2"  width="24" height="24" id="XMLID_41_" y="-24" transform="matrix(1 0 0 -1 0 -4.882813e-004)" overflow="visible"/>
+<path fill="#F2F2F2" d="M3,18h18v-2H3V18z M3,13h18v-2H3V13z M3,6v2h18V6H3z"/>
+</svg>

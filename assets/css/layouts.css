@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'roboto';
+	src: url('../fonts/roboto-regular-webfont.eot');
+	src: local('roboto'), url('../fonts/roboto-regular-webfont.woff') format('woff'), url('./fonts/roboto-regular-webfont.ttf') format('truetype');
+}
+body{
+	background-color: #e0e0e0;
+	font-family: 'roboto';
+	text-shadow:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'roboto';
+	text-shadow:none;
+}
+.card{
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 4px 4px 6px #ccc;
+}
+.user_pic{
+	background-color: #000;
+	border-radius: 16px;
+}
+.header{
+	background-color: #f68c1e;
+	box-shadow: 4px 4px 6px #ccc;
+}
+.searchForm{
+	background-color: #f68c1e;
+}
+.text-theme-header{
+	background-color: #f68c1e;
+	width: 230px;
+}
+.text-theme-light{
+	color: #fff;
+	border-bottom-color: #FFF;
+}
+.text-theme-dark{
+	color: #000;
+	border-bottom-color: #000;
+}
+.add{
+	background-color:#f68c1e;
+	box-shadow: 4px 4px 6px #ccc;
+	border-radius: 50%;
+}
+.noresults{
+	margin-top: 50px;
+	font-size: 50px;
+	color:#666;
+}
